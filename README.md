@@ -1,0 +1,1 @@
+# ResolveX_Intelligence
