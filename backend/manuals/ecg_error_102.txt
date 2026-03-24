@@ -1,0 +1,18 @@
+DEVICE: ECG MACHINE
+
+ERROR CODE: 102
+
+PROBLEM:
+Battery low warning.
+
+CAUSE:
+Battery charge below safe operating threshold.
+
+SOLUTION:
+
+1. Connect ECG machine to power supply
+2. Replace battery if degraded
+3. Restart system after charging
+
+CONFIDENCE LEVEL: HIGH
+SOURCE: ECG SERVICE MANUAL

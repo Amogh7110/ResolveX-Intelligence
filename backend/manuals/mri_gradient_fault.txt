@@ -1,0 +1,17 @@
+DEVICE: MRI SYSTEM
+
+FAULT:
+Gradient coil malfunction detected.
+
+CAUSE:
+Cooling system failure or gradient overload.
+
+SOLUTION:
+
+1. Inspect gradient cooling system
+2. Restart MRI console
+3. Run gradient diagnostic test
+4. Contact service engineer if issue persists
+
+CONFIDENCE LEVEL: MEDIUM
+SOURCE: MRI SERVICE MANUAL

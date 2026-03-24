@@ -1,0 +1,16 @@
+DEVICE: DEFIBRILLATOR
+
+ERROR:
+Battery malfunction detected.
+
+CAUSE:
+Battery charge failure or degraded cell.
+
+SOLUTION:
+
+1. Replace battery pack
+2. Check charging dock
+3. Restart defibrillator
+
+CONFIDENCE LEVEL: HIGH
+SOURCE: DEFIBRILLATOR SERVICE MANUAL

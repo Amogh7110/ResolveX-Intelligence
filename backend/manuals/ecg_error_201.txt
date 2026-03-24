@@ -1,0 +1,19 @@
+DEVICE: ECG MACHINE
+
+ERROR CODE: 201
+
+PROBLEM:
+Signal noise detected.
+
+CAUSE:
+Electrical interference or patient movement.
+
+SOLUTION:
+
+1. Keep patient still
+2. Check grounding cable
+3. Remove nearby electrical interference sources
+4. Restart ECG system
+
+CONFIDENCE LEVEL: HIGH
+SOURCE: ECG SERVICE MANUAL

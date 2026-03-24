@@ -1,0 +1,17 @@
+DEVICE: VENTILATOR
+
+ALARM:
+Low pressure detected.
+
+CAUSE:
+Air leakage or disconnected tubing.
+
+SOLUTION:
+
+1. Inspect breathing circuit connections
+2. Check tubing for leakage
+3. Replace faulty connectors
+4. Restart ventilator system
+
+CONFIDENCE LEVEL: HIGH
+SOURCE: VENTILATOR SERVICE MANUAL

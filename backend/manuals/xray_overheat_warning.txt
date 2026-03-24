@@ -1,0 +1,17 @@
+DEVICE: X-RAY MACHINE
+
+WARNING:
+System overheating detected.
+
+CAUSE:
+Extended exposure cycles or cooling fan failure.
+
+SOLUTION:
+
+1. Allow system to cool
+2. Check cooling fan operation
+3. Restart X-ray unit
+4. Resume operation after temperature stabilizes
+
+CONFIDENCE LEVEL: MEDIUM
+SOURCE: X-RAY SERVICE MANUAL

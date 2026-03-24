@@ -1,0 +1,17 @@
+DEVICE: VENTILATOR
+
+ALARM:
+High airway pressure detected.
+
+CAUSE:
+Blocked airway or kinked tubing.
+
+SOLUTION:
+
+1. Check airway obstruction
+2. Inspect breathing tubing
+3. Remove blockages
+4. Restart ventilator
+
+CONFIDENCE LEVEL: HIGH
+SOURCE: VENTILATOR SERVICE MANUAL

@@ -1,0 +1,19 @@
+DEVICE: ECG MACHINE
+
+ERROR CODE: 101
+
+PROBLEM:
+Paper not loaded.
+
+CAUSE:
+Thermal recording paper missing or incorrectly inserted.
+
+SOLUTION:
+
+1. Open ECG printer compartment
+2. Insert thermal paper correctly
+3. Close compartment securely
+4. Restart ECG machine
+
+CONFIDENCE LEVEL: HIGH
+SOURCE: ECG SERVICE MANUAL

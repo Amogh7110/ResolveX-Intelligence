@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  background: black;
+  color: #00ffff;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid rgba(0,255,255,0.2);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.engineer-mode {
+  color: #00ff66;
+  font-size: 14px;
+}
+
+/* MAIN GRID */
+
+.main-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  padding: 60px;
+}
+
+/* DEVICE PANEL */
+
+.device-box {
+  border: 1px solid rgba(0,255,255,0.2);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,255,255,0.3);
+}
+
+/* MIC CORE */
+
+.voice-core {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mic-button {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  font-size: 45px;
+  border: 2px solid cyan;
+  background: black;
+  color: cyan;
+  box-shadow: 0 0 30px cyan;
+  cursor: pointer;
+}
+
+.mic-button:hover {
+  box-shadow: 0 0 60px cyan;
+}
+
+/* CONFIDENCE CIRCLE */
+
+.confidence-circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid #00ff66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 30px #00ff66;
+}
+
+/* RESPONSE PANEL */
+
+.response-stream {
+  margin: 50px;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid rgba(0,255,255,0.2);
+  box-shadow: 0 0 25px rgba(0,255,255,0.3);
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #00ff66;
+  border-top: 1px solid rgba(0,255,255,0.2);
+}

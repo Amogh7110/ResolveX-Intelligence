@@ -1,0 +1,19 @@
+DEVICE: ECG MACHINE
+
+ERROR CODE: 107
+
+PROBLEM:
+Electrode connection failure detected.
+
+CAUSE:
+Loose patient cable or disconnected electrodes.
+
+SOLUTION:
+
+1. Check patient cable connection
+2. Reattach ECG electrodes
+3. Restart ECG machine
+4. Replace damaged electrodes if necessary
+
+CONFIDENCE LEVEL: HIGH
+SOURCE: ECG SERVICE MANUAL
