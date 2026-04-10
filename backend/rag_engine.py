@@ -14,15 +14,65 @@ except Exception:
 # CONFIDENCE ENGINE
 # =============================
 
-def calculate_confidence(source):
+def calculate_confidence(issue, solution, source):
 
-    confidence_map = {
-        "manual": 92,
-        "ai": 68,
-        "none": 40
+    score = 0
+
+    # -------------------------
+    # FEATURE 1: SOURCE WEIGHT
+    # -------------------------
+    source_weight = {
+        "manual": 0.50,
+        "ai": 0.30,
+        "none": 0.10
     }
 
-    return confidence_map.get(source, 50)
+    score += source_weight.get(source, 0.20)
+
+
+    # -------------------------
+    # FEATURE 2: KEYWORD MATCH SCORE
+    # -------------------------
+    issue_words = set(issue.lower().split())
+    solution_words = set(solution.lower().split())
+
+    if len(issue_words) > 0:
+
+        keyword_overlap = len(issue_words & solution_words) / len(issue_words)
+
+        score += keyword_overlap * 0.25
+
+
+    # -------------------------
+    # FEATURE 3: DEVICE DETECTION BONUS
+    # -------------------------
+    device = extract_device(solution)
+
+    if device != "UNKNOWN DEVICE":
+
+        score += 0.15
+
+
+    # -------------------------
+    # FEATURE 4: SOLUTION COMPLETENESS
+    # -------------------------
+    solution_length = len(solution.split())
+
+    if solution_length > 120:
+
+        score += 0.10
+
+    elif solution_length > 50:
+
+        score += 0.05
+
+
+    # -------------------------
+    # FINAL NORMALIZATION
+    # -------------------------
+    confidence_percent = int(min(score * 100, 95))
+
+    return confidence_percent
 
 
 # =============================
@@ -46,7 +96,7 @@ def extract_device(solution_text):
 
 def format_response(issue, solution, source):
 
-    confidence = calculate_confidence(source)
+   confidence = calculate_confidence(issue, solution, source)
 
     device = extract_device(solution)
 
